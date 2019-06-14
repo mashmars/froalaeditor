@@ -9,7 +9,7 @@ class FroalaeditorType extends AbstractType
 {
     public function getParent()
     {
-        return Textarea::class;
+        return TextareaType::class;
     }
 
     public function getName()
