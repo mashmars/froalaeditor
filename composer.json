@@ -1,0 +1,18 @@
+{
+    "name": "mashmars/floalaeditor",
+    "type": "symfony-bundle",
+    "description": "一个floalaeditor2.8.1破解版的bundle",
+    "keywords": ["mashmars", "editor","floalaeditor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mash",
+            "email": "402738923@qq.com",
+            "homepage": "http://mashuai.imkxa.com",
+            "role": "developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Mash\\Floalaeditor\\" : "src"}
+    }
+}
