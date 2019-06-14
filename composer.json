@@ -1,8 +1,8 @@
 {
-    "name": "mashmars/floalaeditor",
+    "name": "mashmars/froalaeditor",
     "type": "symfony-bundle",
-    "description": "一个floalaeditor2.8.1破解版的bundle",
-    "keywords": ["mashmars", "editor","floalaeditor"],
+    "description": "一个froalaeditor2.8.1破解版的bundle",
+    "keywords": ["mashmars", "editor","froalaeditor"],
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Mash\\FloalaeditorBundle\\" : "src"}
+        "psr-4": { "Mash\\FroalaeditorBundle\\" : "src"}
     }
 }
