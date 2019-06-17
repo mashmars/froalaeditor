@@ -1,3 +1,11 @@
 services:
+  Mashmars\FroalaeditorBundle\Services\FroalaeditorUploader: '@froalaeditor_uploader' # create alias
   froalaeditor_uploader:
     class: Mashmars\FroalaeditorBundle\Services\FroalaeditorUploader
+  
+
+  #控制器使用DI需要设置tags controller.service_arguments
+  Mashmars\FroalaeditorBundle\Controller\FroalaeditorController:
+    tags: ['controller.service_arguments']
+    autowire: true
+    autoconfigure: true 

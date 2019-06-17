@@ -16,10 +16,10 @@
             //imageUploadParams: {pid: '1'}, //上传图片时带的参数
             ///imageDefaultWidth: 100, //上传图片后的默认大小
             //imageResizeWithPercent: true,//不设置这个，imageDefaultWidth的单位为像素，设置后为%
-            videoUploadURL:"/",
-            fileUploadURL:"/",
-            imageManagerLoadURL:"/",
-            imageManagerDeleteURL:"/",
+            videoUploadURL:"{{ path('froalaeditor_upload') }}",
+            fileUploadURL:"{{ path('froalaeditor_upload') }}",
+            imageManagerLoadURL:"{{ path('froalaeditor_image') }}",
+            imageManagerDeleteURL:"{{ path('froalaeditor_image_delete') }}",
             toolbarButtons: ["bold", "italic", "underline", "strikeThrough", "subscript", "superscript", "|", "fontFamily", "fontSize", "color", "|", "paragraphFormat", "align", "formatOL", "formatUL", "outdent", "indent", "quote", "-", "insertLink", "insertImage", "insertVideo", "embedly", "insertFile", "insertTable", "|", "specialCharacters", "insertHR", "selectAll", "clearFormatting", "|",  "spellChecker", "|", "undo", "redo"],
             language: 'zh_cn',
         });

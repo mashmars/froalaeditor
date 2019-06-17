@@ -1,4 +1,11 @@
 froalaeditor_upload:
   path: /froalaeditor/upload
-  defaults: { _controller: 'FroalaeditorBundle:Froalaeditor:upload' }
+  defaults: { _controller: 'FroalaeditorBundle:Froalaeditor:upload' } 
+  #or use controller: Mashmars\FroalaeditorBundle\Controller\FroalaeditorController::uploadAction
+froalaeditor_image:
+  path: /froalaeditor/images
+  defaults: { _controller: 'FroalaeditorBundle:Froalaeditor:uploadedImage'}
+froalaeditor_image_delete:
+  path: /froalaeditor/image/delete
+  defaults: { _controller: 'FroalaeditorBundle:Froalaeditor:uploadedImageDel'}
   
