@@ -33,3 +33,10 @@ froalaeditor:
   resource: '@FroalaeditorBundle/Resources/config/route.yaml'  
   prefix: /
 ```
+#### formType使用
+```
+use Mashmars\FroalaeditorBundle\Form\FroalaeditorType;
+$builder->add('content', FroalaeditorType::class)
+```
+####效果
+![效果图](/xiaoguo.png)
