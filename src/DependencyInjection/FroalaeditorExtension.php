@@ -23,8 +23,8 @@ class FroalaeditorExtension extends Extension
         //给服务传递参数     
         /* $definition->replaceArgument(0, $config['twitter']['client_id']); */
         $definition = $container->getDefinition('froalaeditor_uploader');
-        $definition->setArgument('$imageDirectory',$config['upload_directory']['image_directory']);
-        $definition->setArgument('$videoDirectory',$config['upload_directory']['video_directory']);
-        $definition->setArgument('$fileDirectory',$config['upload_directory']['file_directory']);
+        $definition->setArgument('$imageDirectory',$config['upload_directory']['image_directory'] ?? '');
+        $definition->setArgument('$videoDirectory',$config['upload_directory']['video_directory'] ?? '');
+        $definition->setArgument('$fileDirectory',$config['upload_directory']['file_directory'] ?? '');
     }
 }
