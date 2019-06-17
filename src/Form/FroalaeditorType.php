@@ -1,8 +1,9 @@
 <?php
-namespace Mash\FroalaeditorBundle\Form;
+namespace Mashmars\FroalaeditorBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormInterface;
+use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 
 class FroalaeditorType extends AbstractType
@@ -12,8 +13,7 @@ class FroalaeditorType extends AbstractType
         return TextareaType::class;
     }
 
-    public function getName()
-    {
-        return 'froalaeditor';
-    }
+    
+
+    
 }

@@ -1,5 +1,5 @@
 <?php
-namespace Mash\FroalaeditorBundle;
+namespace Mashmars\FroalaeditorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

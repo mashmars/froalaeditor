@@ -13,6 +13,6 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Mash\\FroalaeditorBundle\\" : "src"}
+        "psr-4": { "Mashmars\\FroalaeditorBundle\\" : "src"}
     }
 }

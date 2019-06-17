@@ -1,0 +1,4 @@
+froalaeditor_upload:
+  path: /froalaeditor/upload
+  defaults: { _controller: 'FroalaeditorBundle:Froalaeditor:upload' }
+  

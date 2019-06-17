@@ -1,0 +1,3 @@
+services:
+  froalaeditor_uploader:
+    class: Mashmars\FroalaeditorBundle\Services\FroalaeditorUploader
